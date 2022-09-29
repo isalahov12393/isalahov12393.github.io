@@ -1,17 +1,21 @@
   body {
     background-color: wheat;
     background-image: url("backimg.jpeg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
+    color: antiquewhite;
   }
   .center{
     text-align: center;
   }
   img {
-    height: 7cm; width: 10cm;
+    height: 10cm; width: 15cm;
   }
   .italic-text{
     font-style: italic;
-    color: darkblue;
+    color:cyan;
+  }
+  a:visited{
+    color: chartreuse;
   }
