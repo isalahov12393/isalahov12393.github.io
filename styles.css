@@ -1,8 +1,17 @@
   body {
     background-color: wheat;
+    background-image: url("backimg.jpeg");
+    background-attachment: scroll;
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
   }
+  .center{
+    text-align: center;
+  }
   img {
-    height: 5cm; width: 5cm;
+    height: 7cm; width: 10cm;
+  }
+  .italic-text{
+    font-style: italic;
+    color: darkblue;
   }
