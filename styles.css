@@ -16,6 +16,14 @@
     font-style: italic;
     color:cyan;
   }
+  a:link{
+    color:deepskyblue;
+  }
   a:visited{
     color: chartreuse;
+  }
+  a:hover{
+    display: inline-flexbox;
+    background-color: rgb(255, 255, 255);
+    color:chocolate;
   }
