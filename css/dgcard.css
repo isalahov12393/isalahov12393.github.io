@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ :root {
+    --background: white;
+    --primary: #ffffff;
+    --secondary: #1effc3;
+    --card-size: 610px;
+ }
+ 
+ body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: var(--background);
+    font-family: 'Source Code Pro', monospace;
+ }
+ 
+ .card { 
+    width: calc(var(--card-size) * 1.586);
+    height: var(--card-size);
+    border-radius: 12px;
+    box-shadow:  0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+    background: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 40% auto;
+    color: white;
+    align-items: center;
+ }
+ 
+ .card-details {
+    padding: 16px;
+    width: 500px;
+    height: auto;
+ }
+ 
+ .name {
+    font-size: 20px;
+ }
+ 
+ .occupation {
+    font-weight: 600;
+    color: var(--primary);
+ }
+ 
+ .card-avatar {
+    display: block;
+    place-items: center;
+    max-width: 447px;
+    height: auto;
+ }
+ 
+ .card-about {
+    margin-top: 16px;
+    display: grid;
+    grid-auto-flow: column;
+ }
+ 
+ .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+ }
+ 
+ .skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+ }
