@@ -6,7 +6,7 @@
     --background: white;
     --primary: #ffffff;
     --secondary: #1effc3;
-    --card-size: 610px;
+    --card-size: 600px;
  }
  
  body {
@@ -20,25 +20,29 @@
  }
  
  .card { 
-    width: calc(var(--card-size) * 1.586);
+    width: 950px;
     height: var(--card-size);
-    border-radius: 12px;
+    border-radius: 15px;
     box-shadow:  0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
-    background: rgb(0, 0, 0);
+    background: rgb(12, 171, 115);
     display: grid;
     grid-template-columns: 40% auto;
     color: white;
     align-items: center;
+    
  }
  
  .card-details {
-    padding: 16px;
-    width: 500px;
+    position: relative;
+    float: right;
+    padding: 80px;
+    width: 650px;
     height: auto;
  }
  
  .name {
-    font-size: 20px;
+    font-size: 33px;
+    font-style: oblique;
  }
  
  .occupation {
@@ -47,14 +51,14 @@
  }
  
  .card-avatar {
-    display: block;
+    display: inline-flexbox;
     place-items: center;
-    max-width: 447px;
+    max-width: 450px;
     height: auto;
  }
  
  .card-about {
-    margin-top: 16px;
+    margin-top: 0px;
     display: grid;
     grid-auto-flow: column;
  }
