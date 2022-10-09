@@ -1,10 +1,10 @@
   body {
-    background-color: wheat;
+    background-color:rgb(0, 53, 100);
     background-image: url("backimg.jpeg");
     background-attachment: fixed;
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
   }
   .center{
     text-align: center;
@@ -14,7 +14,7 @@
   }
   .italic-text{
     font-style: italic;
-    color:cyan;
+    color:brown;
   }
   a:link{
     color:deepskyblue;
@@ -23,7 +23,8 @@
     color: chartreuse;
   }
   a:hover{
-    display: inline-flexbox;
+    display: block;
+    transform: scale(1.5);
     background-color: rgb(255, 255, 255);
     color:chocolate;
   }
