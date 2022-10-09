@@ -26,7 +26,7 @@
     display: inline-block;
     transform: scale(1.5);
     background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+    color: chocolate;
   }
   p{
     word-wrap: break-word;
