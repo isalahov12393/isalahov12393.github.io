@@ -9,7 +9,7 @@
     place-items: center;
     padding: 10px;
     background: rgb(155, 231, 14);
-    background-image: url("imgs/ada.jpg");
+    background-image: url("/imgs/ada.jpg");
     font-family: 'Source Code Pro', monospace;
  }
  
@@ -55,9 +55,7 @@
     color: #ffffff;
  }
   
- .links:hover {
-   /* display: inline-block; */
-   transform: scale(1.5);
+  .links { 
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -71,7 +69,8 @@
     margin-top: 10px;
  }
 
- button {
+ button:hover {
+   transform: scale(1.2);
    border-style: none;
    border-radius: 5px;
    height: 25px;
