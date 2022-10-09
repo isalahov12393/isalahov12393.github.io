@@ -54,7 +54,9 @@
     color: #ffffff;
  }
   
- .links {
+ .links:hover {
+   /* display: inline-block; */
+   transform: scale(1.5);
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -68,9 +70,7 @@
     margin-top: 10px;
  }
 
- button:hover {
-   display: inline-block;
-   transform: scale(1.5);
+ button {
    border-style: none;
    border-radius: 5px;
    height: 25px;
