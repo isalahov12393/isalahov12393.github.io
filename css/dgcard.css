@@ -9,6 +9,7 @@
     place-items: center;
     padding: 10px;
     background: rgb(155, 231, 14);
+    background-image: url("imgs/ada.jpg");
     font-family: 'Source Code Pro', monospace;
  }
  
@@ -18,7 +19,6 @@
     border-radius: 15px;
     box-shadow:  0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
     background: rgb(12, 171, 115);
-    background-image: url("imgs/ada.jpg");
     display: grid;
     grid-template-columns: 40% auto;
     color: white;
