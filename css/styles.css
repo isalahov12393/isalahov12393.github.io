@@ -23,8 +23,8 @@
     color: chartreuse;
   }
   a:hover{
-    display: block;
-    transform: scale(1.5);
+    /* display: flex; */
+    /* transform: scale(1.5); */
     background-color: rgb(255, 255, 255);
-    color:chocolate;
+    color:rgb(0, 0, 0);
   }
