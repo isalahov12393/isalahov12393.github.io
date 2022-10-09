@@ -68,7 +68,7 @@
     margin-top: 10px;
  }
 
- button {
+ button:hover {
    display: inline-block;
    transform: scale(1.5);
    border-style: none;
