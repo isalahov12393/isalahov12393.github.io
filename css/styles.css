@@ -24,7 +24,7 @@
   }
   a:hover{
     display: inline-block;
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: rgb(255, 255, 255);
     color: chocolate;
   }
