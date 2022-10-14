@@ -1,5 +1,5 @@
   body {
-    background-color:rgb(100, 100, 100);
+    background-color:rgba(100, 100, 100);
     background-image: url("imgs/backimg.jpeg");
     background-attachment: fixed;
     font-family: 'Inconsolata', monospace;
@@ -12,9 +12,11 @@
   img {
     height: 10cm; width: 15cm;
   }
+  
   .italic-text{
+    background-color: deepskyblue;
     font-style: italic;
-    color:brown;
+    color:#efef0f
   }
   a:link{
     color:deepskyblue;
@@ -29,14 +31,17 @@
     color: chocolate;
   }
   p{
-    word-wrap: normal;
+    margin-left: 2rem;
+    padding-left: 10px;
+    margin-top: 0%;
+    word-wrap: break-word;
   }
-  table{
-    position: sticky;
+  hr{
+    border: solid whitesmoke;
   }
 #clock{
-  height: 25px;
-  width: 70px;
+  height: 30px;
+  width: 85px;
   background-color:rgba(4, 132, 142, 1);
   display: block;
   position: fixed;
@@ -44,8 +49,9 @@
   left: 0;
   z-index: 1000;
   padding-top: 10px;
-  box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.4);
-  border-top-right-radius: 10%;
-  border-bottom-right-radius: 10%;
+  padding-left: 10px;
+  box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.4);
+  border-radius: 10%;
   color:#e7e7de;
+  align-content: center;
 }
