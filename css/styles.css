@@ -35,8 +35,8 @@
     position: sticky;
   }
 #clock{
-  height: 40px;
-  width: 110px;
+  height: 25px;
+  width: 70px;
   background-color:rgba(4, 132, 142, 1);
   display: block;
   position: fixed;
