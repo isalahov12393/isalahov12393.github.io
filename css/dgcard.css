@@ -3,14 +3,14 @@ body {
    font-family: 'Source Code Pro', monospace;
 }
 
-.container {
-   width: 30%;
-   /*width: 550px*/
+/* .container {
+   /* width: 30%; */
+   /*width: 550px */
    /* height: 868px; */
-   min-width: 350px;
-   margin: 53px auto;
-   /* background: #23252C; */
-}
+   /* min-width: 350px;
+   margin: 53px auto; */
+   /* background: #23252C; 
+} */
 
 .card {
    width: 90%;
