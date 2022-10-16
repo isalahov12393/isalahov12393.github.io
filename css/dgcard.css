@@ -1,83 +1,175 @@
-* {
-    box-sizing: border-box;
- }
- 
- body {
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    place-items: center;
-    padding: 10px;
-    background: rgb(155, 231, 14);
-    background-image: url("/imgs/ada.jpg");
-    font-family: 'Source Code Pro', monospace;
- }
- 
- .card { 
-    width: 800px;
-    height: 420px;
-    border-radius: 15px;
-    box-shadow:  0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
-    background: rgb(12, 171, 115);
-    display: grid;
-    grid-template-columns: 40% auto;
-    color: white;
-    align-items: center;
- }
- 
- .card-avatar {
-    display: grid;
-    width: 400px;
-    height: 420px;
-    margin-left: 10px;
-    margin-bottom: 10px;
- }
+body {
+   background-color: #23252C;
+   font-family: 'Inter', sans-serif;
+}
 
- img {
-    border-radius: 15px;
- }
- 
- .card-details {
-    margin-left: 90px;
-    padding: 15px;
-    width: 350px;
-    height: 450px;
- }
- 
- .name {
-    font-size: 25px;
-    font-style: oblique;
-    font-weight: 600;
- }
- 
- .occupation {
-    font-weight: 400;
-    color: #ffffff;
- }
-  
-  .links { 
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 10px;
- }
- 
- .skills {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
- }
+.container {
+   width: 30%;
+   /*width: 550px*/
+   /* height: 868px; */
+   min-width: 350px;
+   margin: 53px auto;
+   /* background: #23252C; */
+}
 
- button:hover {
-   transform: scale(1.2);
-   border-style: none;
-   border-radius: 5px;
-   height: 30px;
-   width: 30px;
-   align-content: center;
-   font-size: 20px;
- }
- a:hover{
-   background-color: sienna;
- }
+.card {
+   width: 90%;
+   /* width: 317px; */
+   margin: 35px auto;
+   border: 1px solid #ababab;
+   border-radius: 10px;
+   background-color: #161619;
+}
+
+.top {
+   width: 100%;
+   height: 230px;
+   background-image: url('../images/profile_pic.jpeg');
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   margin-bottom: 0;
+}
+
+main {
+   margin: 0 auto;
+   background-color: #161619;
+}
+
+.content {
+   width: 99%;
+   margin: 0 auto 10px;
+   background-color: #000000;
+   padding-top: 21px;
+   padding-left: 10px;
+   padding-right: 10px;
+   box-sizing: border-box;
+}
+
+.bio {
+   text-align: center;
+}
+
+.bio>h1 {
+   font-weight: 600;
+   font-size: 25px;
+   color: #FFFFFF;
+   line-height: 30px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.bio>h3 {
+   font-weight: 400;
+   font-size: 13px;
+   color: #F3BF99;
+   line-height: 15.5px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.bio>p {
+   font-weight: 400;
+   font-size: 11px;
+   color: #F5F5F5;
+   line-height: 15px;
+}
+
+.messenger {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.messenger--link {
+   width: 115px;
+   height: 35px;
+   border-radius: 6px;
+   box-sizing: border-box;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.messenger--link--icon {
+   width: 1rem;
+   height: 1rem;
+   margin-right: 5%;
+}
+
+.messenger--link--text {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+}
+
+.messenger--link:nth-child(1) {
+   background-color: white;
+   border: 1px solid #D1D5DB;
+   color: #374151;
+}
+
+.messenger--link:nth-child(2) {
+   background-color: #5093E2;
+   border: 1px solid #3787e2;
+   color: #FFFFFF;
+}
+
+.messenger--link:hover {
+   background-color: #575758;
+   border: 1px solid #e7e8ea;
+   color: #f7f8fa;
+}
+
+.info {
+   padding: 13px 30px;
+}
+
+.info--component>h2 {
+   font-weight: 600;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 24px;
+   color: #F5F5F5;
+}
+
+.info--component>p {
+   font-weight: 400;
+   font-size: 11px;
+   font-style: normal;
+   line-height: 15px;
+   color: #DCDCDC;
+}
+
+footer {
+   margin-bottom: 10px;
+}
+
+.social-links {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 70%;
+   margin: auto;
+}
+
+.social-icon {
+   vertical-align: middle;
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+.social-icon>.fa {
+   width: 25px;
+   height: 25px;
+   background-color: #918E9B;
+   padding-top: 2px;
+   border-radius: 3px;
+}
+
+.social-icon>.fa:hover {
+   background-color: #c7c6c9;
+}
