@@ -30,7 +30,7 @@ body{
     background-size: cover;
     background-position: center;
     text-align: center;
-    background-image: url('imgs/allweather.webp');
+    background-image: url('allweather.webp');
 }
 .display{
     text-align: center;
