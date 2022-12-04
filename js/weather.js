@@ -69,7 +69,7 @@ const loadData=(event)=>{
         } catch (err) {
             if(!input.value){
               alert("Please enter a valid city name!");
-              }
+            }
             console.log(err);
           }
       });
