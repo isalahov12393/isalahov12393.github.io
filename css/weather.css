@@ -1,0 +1,38 @@
+.inputValue{
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    height: 25px;
+}
+.button{
+    border: solid 3px rgb(237, 23, 23);
+    border-radius: 10px;
+}
+.button:hover{
+    transform: scale(1.2);
+    background-color: rgb(237, 23, 23);
+    border-color: black;
+    color: aliceblue;
+}
+h2{
+    margin-left: 5px;
+    color:rgb(237, 23, 23);
+    font-family:'Courier New', Courier, monospace, sans-serif;
+}
+h4{
+    color:rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace, sans-serif;
+}
+body{
+    background-color: aqua;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('imgs/allweather.webp');
+}
+.display{
+    text-align: center;
+    margin-top: 5px;
+}

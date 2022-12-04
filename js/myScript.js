@@ -8,3 +8,9 @@ function realtimeClock() {
     document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds + " " + amPm;
     var t = setTimeout(realtimeClock,500);
   }
+  
+function greetUser(fullName){
+  alert("Hello, " + fullName);
+}
+let name = prompt("Enter full name:");
+greetUser(name);
